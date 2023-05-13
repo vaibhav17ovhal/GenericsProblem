@@ -8,13 +8,6 @@ namespace GenericsProblem
         {
             Console.WriteLine("Welcome to Generics");
 
-            int firstNumber = 15;
-            int secondNumber = 25;
-            int thirdNumber = 5;
-
-            int result = MaximumNumber.MaxInt(firstNumber, secondNumber, thirdNumber);
-            Console.WriteLine($"{result} is the greatest number");
-
             double firstNumber1 = 80.88;
             double secondNumber1 = 50.55;
             double thirdNumber1 = 10.11;
