@@ -28,6 +28,13 @@ namespace GenericsProblem
 
             string result2 = MaximumNumber.MaxString(firstNumber2, secondNumber2, thirdNumber2);
             Console.WriteLine($"{result2} is the greatest string length");
+
+            int firstNumber3 = 10;
+            int secondNumber3 = 80;
+            int thirdNumber3 = 50;
+
+            int result3 = GenericMax<int>.Max(firstNumber3, secondNumber3, thirdNumber3);
+            Console.WriteLine(result3);
         }
     }
 }
